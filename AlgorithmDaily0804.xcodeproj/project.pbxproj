@@ -12,6 +12,7 @@
 		DC44850B1D530C180007D3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4485091D530C180007D3B3 /* Main.storyboard */; };
 		DC44850D1D530C180007D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC44850C1D530C180007D3B3 /* Assets.xcassets */; };
 		DC4485101D530C180007D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44850E1D530C180007D3B3 /* LaunchScreen.storyboard */; };
+		DC4485501D5318050007D3B3 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44854F1D5318050007D3B3 /* Combinations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DC44850C1D530C180007D3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC44850F1D530C180007D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC4485111D530C180007D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC44854F1D5318050007D3B3 /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DC4485051D530C180007D3B3 /* AppDelegate.swift */,
 				DC4485071D530C180007D3B3 /* ViewController.swift */,
+				DC44854F1D5318050007D3B3 /* Combinations.swift */,
 				DC4485091D530C180007D3B3 /* Main.storyboard */,
 				DC44850C1D530C180007D3B3 /* Assets.xcassets */,
 				DC44850E1D530C180007D3B3 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				DC4485081D530C180007D3B3 /* ViewController.swift in Sources */,
 				DC4485061D530C180007D3B3 /* AppDelegate.swift in Sources */,
+				DC4485501D5318050007D3B3 /* Combinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				DC4485161D530C180007D3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

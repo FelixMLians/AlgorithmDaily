@@ -9,12 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let arr = [1, 2, 2, 3, 3, 4]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+    }
+    
+    // MARK: - Combinations
+    func myCombinations() -> () {
+        let com = Combinations();
+        let res = com.combine(5, k: 3);
+        print(res)
+    }
+    
+    // MARK: - removeDuplicatesFromSortedList
+    func removeDuplicatesFromSortedList() -> () {
+        let arr = [1, 2, 2, 3, 3, 4]
         
         let head: ListNode = ListNode.init(_val: 1)
         
